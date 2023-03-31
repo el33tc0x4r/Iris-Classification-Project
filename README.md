@@ -22,7 +22,7 @@ First of all, we upload our data.
 
 
 # ANALAYZE DATA 
-We use Pandas to analyze the data we upload
+We use Pandas to analyze the data we upload.
 
 >import pandas as pd
 >
