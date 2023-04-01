@@ -47,3 +47,12 @@ or
 >featuresDF.plot(kind= "bar")
 
 You can access more from https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html
+
+
+
+# SELECT MODEL 
+First we chose our model from https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html, then we selected it as KNeighborsClassifier and ran it with parameters.
+
+>from sklearn.neighbors import KNeighborsClassifier
+>
+>clf = KNeighborsClassifier(n_neighbors=8) 
