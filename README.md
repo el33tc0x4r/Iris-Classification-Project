@@ -5,7 +5,6 @@ The purpose of this project is to illustrate the classification model of Iris fl
 
 
 # LOAD DATASET
-
 First of all, we upload our data.
 
 > from sklearn.datasets import load_iris
@@ -23,7 +22,6 @@ First of all, we upload our data.
 
 
 # ANALAYZE DATA 
-
 We use Pandas to analyze the data we upload.
 
 >import pandas as pd
@@ -41,7 +39,6 @@ We use Pandas to analyze the data we upload.
 
 
 # VISUALIZE DATA 
-
 Then we visualized the data we uploaded.
 >featuresDF.plot(x="sepal lenght" (cm), y= "sepal width (cm)", kind= "scatter") 
 
@@ -54,7 +51,6 @@ You can access more from https://pandas.pydata.org/pandas-docs/stable/reference/
 
 
 # SELECT MODEL 
-
 First we chose our model from https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html, then we selected it as KNeighborsClassifier and ran it with parameters.
 
 >from sklearn.neighbors import KNeighborsClassifier
@@ -64,7 +60,6 @@ First we chose our model from https://scikit-learn.org/stable/modules/generated/
 
 
 # SPLIT DATASET 
-
 After choosing our model, we divided our data with ***train_test_split***.
 
 >import numpy as np  
@@ -83,7 +78,6 @@ After choosing our model, we divided our data with ***train_test_split***.
  
  
  # TRAIN MODEL 
- 
 >clf.fit(X_train, y_train)  
 >
 >accuarcy = clf.score(X_train,y_train)
