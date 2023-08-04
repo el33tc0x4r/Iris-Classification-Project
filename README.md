@@ -1,4 +1,4 @@
-# Iris-Classification-Project
+# Iris Classification Project
 The purpose of this project is to illustrate the classification model of Iris flowers.
 
 
